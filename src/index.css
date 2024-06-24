@@ -1,0 +1,31 @@
+/* index.css (or App.css) */
+
+/* Importing Tailwind base styles */
+@tailwind base;
+
+/* Importing Tailwind component classes */
+@tailwind components;
+
+/* Importing Tailwind utility classes */
+@tailwind utilities;
+
+/* Your custom styles can go below */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Media queries or any additional custom styling */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
+}
